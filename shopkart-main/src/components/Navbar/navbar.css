@@ -1,0 +1,41 @@
+header {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 4rem;
+  font-family: Poppins;
+  color: #ffffff;
+}
+.header__list {
+  font-size: 1.4rem;
+  font-family: 'work sans';
+  text-transform: uppercase;
+  font-weight: var(--font-semi-bold);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.horizontal-line {
+  width: 90%;
+  margin: 0 auto;
+  height: 0.2rem;
+  background-color: #ffffff;
+}
+
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  font-family: 'work sans';
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+}
+.navbar ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
